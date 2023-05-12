@@ -6,16 +6,3 @@ interface InvoiceSave {
     public void save(Invoice invoice);
 }
 
-class SaveToDataBase implements InvoiceSave{
-    @Override
-    public void save(Invoice invoice) {
-        // code for saving to DB
-    }
-}
-
-class SaveToFile implements InvoiceSave{
-    @Override
-    public void save(Invoice invoice) {
-    // code for saving to File
-    }
-}
